@@ -1,5 +1,5 @@
 # Incubator-Dashboard
-Dashboard for Incubator System
+Dashboard for Incubator System using THingspeak
 
 # Access Link
 ## [Dashboard](https://krudff.github.io/Incubator-Dashboard/index.html)
