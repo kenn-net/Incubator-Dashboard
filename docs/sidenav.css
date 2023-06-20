@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+body{
+    font-family: calibri;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+}
+.wrapper .sidenav{
+    position:fixed;
+    right:0;
+    top:0;
+    width:20vw;
+    height:100vh;
+    background-color: ghostwhite;
+    padding: 20px;
+}
+.wrapper .sidenav h1{
+    color:darkred;
+    font-size:22pt;
+    text-align: center;
+    padding:15px;
+    line-height:30px;
+    overflow:hidden;
+    border-bottom: 1px dotted grey;
+    margin-bottom: 50px;
+}
+.wrapper .sidenav ul li{
+    list-style:none;
+    padding:15px;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.wrapper .sidenav ul{
+    overflow: hidden;
+}
+.wrapper .sidenav img:hover{
+    transition: 5s;
+    transform:rotate(360deg) scale(1.5);
+}
+.wrapper .sidenav li:hover{
+    color: grey;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.wrapper .main-content{
+    width:80vw;
+    padding:0;
+}
+.wrapper .main-content h1{
+    color:ghostwhite;
+    margin-bottom: 20px;
+    font-size:40px;
+}
+.wrapper .main-content iframe:hover{
+    transition:1s;
+    transform: scale(1.1);
+}
+section{
+    height: 100vh;
+    width: 75vw;
+    padding:40px;
+    right:0;
+}
+#section1{
+    background-color:#eca237;
+}
+#section2{
+    background-color: goldenrod;
+}
+#section3{
+    background-color: #d44f22;
+}
+#section4{
+    background-color: #a13c1a;
+}
+#section5{
+    background-color: #f10043;
+}
+iframe{
+    margin:auto;
+}
+
+.intro{
+    position:fixed;
+    z-index: 2;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color:#000000;
+    transition:2s;
+}
+.logo{
+    position:absolute;
+    left:40%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.logo.active{
+    bottom:0;
+    opacity:1;
+    transition:ease-in-out 1.5s;
+    transform: scale(3);
+}
+.logo.fade{
+    bottom:200px;
+    opacity:0;
+    transform: rotate(180deg);
+    transition: ease-in-out 1.5s;
+}
