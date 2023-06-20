@@ -8,23 +8,27 @@ body{
     font-family: calibri;
 }
 a{
-    color:darkgoldenrod;
+    color:black;
     text-decoration: none;
     font-size:20px;
 }
 .wrapper .sidenav{
     position:fixed;
-    left:0;
+    right:0;
     top:0;
     width:20vw;
     height:100vh;
-    background-color: white;
+    background-color: ghostwhite;
+    padding: 20px;
 }
 .wrapper .sidenav h1{
     color:darkred;
+    font-size:22pt;
     text-align: center;
-    line-height:90px;
-    border-bottom: 1px dotted white;
+    padding:15px;
+    line-height:30px;
+    overflow:hidden;
+    border-bottom: 1px dotted grey;
     margin-bottom: 50px;
 }
 .wrapper .sidenav ul li{
@@ -33,34 +37,50 @@ a{
     border-bottom:1px solid rgba(0,0,0,0.1);
     border-top: 1px solid rgba(255,255,255,0.1);
 }
+.wrapper .sidenav ul{
+    overflow: hidden;
+}
+.wrapper .sidenav img:hover{
+    transition: 5s;
+    transform:rotate(360deg) scale(1.5);
+}
+.wrapper .sidenav li:hover{
+    color: grey;
+    transition: 1s;
+    transform: scale(1.1);
+}
 .wrapper .main-content{
     width:80vw;
-    margin-left: 20vw;
+    padding:0;
 }
 .wrapper .main-content h1{
     color:ghostwhite;
     margin-bottom: 20px;
     font-size:40px;
 }
-.wrapper .sidenav img:hover{
-    transition: 5s;
-    transform:rotate(360deg);
+.wrapper .main-content iframe:hover{
+    transition:1s;
+    transform: scale(1.1);
 }
 section{
     height: 100vh;
-    width: 80vw;
+    width: 75vw;
     padding:40px;
+    right:0;
 }
 #section1{
     background-color:#eca237;
 }
 #section2{
-    background-color: #d44f22;
+    background-color: goldenrod;
 }
 #section3{
-    background-color: #a13c1a;
+    background-color: #d44f22;
 }
 #section4{
+    background-color: #a13c1a;
+}
+#section5{
     background-color: #f10043;
 }
 iframe{
