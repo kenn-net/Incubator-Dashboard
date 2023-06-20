@@ -3,7 +3,6 @@
     padding:0;
     overflow-x: hidden;
     scroll-behavior:smooth;
-    transition: 2s;
 }
 body{
     font-family: calibri;
@@ -69,4 +68,34 @@ section{
 }
 iframe{
     margin:auto;
+}
+
+.intro{
+    position:fixed;
+    z-index: 2;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color:#000000;
+    transition:2s;
+}
+.logo{
+    position:absolute;
+    left:40%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.logo.active{
+    bottom:0;
+    opacity:1;
+    transition:ease-in-out 1.5s;
+    transform: scale(3);
+}
+.logo.fade{
+    bottom:200px;
+    opacity:0;
+    transform: rotate(180deg);
+    transition: ease-in-out 1.5s;
 }
