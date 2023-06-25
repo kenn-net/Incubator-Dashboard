@@ -22,7 +22,7 @@ a{
     padding: 20px;
 }
 .wrapper .sidenav h1{
-    color: black;
+    color: white;
     font-size:22pt;
     text-align: center;
     padding:15px;
@@ -54,7 +54,7 @@ a{
     padding:0;
 }
 .wrapper .main-content h1{
-    color:ghostwhite;
+    color:black;
     margin-bottom: 20px;
     font-size:40px;
 }
@@ -69,19 +69,19 @@ section{
     right:0;
 }
 #section1{
-    background-color: black;
+    background-color: ghostwhite;
 }
 #section2{
-    background-color: black;
+    background-color: ghostwhite;
 }
 #section3{
-    background-color: black;
+    background-color: ghostwhite;
 }
 #section4{
-    background-color: black;
+    background-color: ghostwhite;
 }
 #section5{
-    background-color: black;
+    background-color: ghostwhite;
 }
 iframe{
     margin:auto;
