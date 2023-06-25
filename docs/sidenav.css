@@ -18,11 +18,11 @@ a{
     top:0;
     width:20vw;
     height:100vh;
-    background-color: ghostwhite;
+    background-color: 	#C0C0C0;
     padding: 20px;
 }
 .wrapper .sidenav h1{
-    color: white;
+    color: black;
     font-size:22pt;
     text-align: center;
     padding:15px;
