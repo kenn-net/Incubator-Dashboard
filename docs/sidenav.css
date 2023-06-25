@@ -7,7 +7,7 @@
 body{
     font-family: calibri;
 }
-a{
+.wrapper .sidenav a{
     color:black;
     text-decoration: none;
     font-size:20px;
@@ -60,7 +60,7 @@ a{
 }
 .wrapper .main-content iframe:hover{
     transition:1s;
-    transform: scale(1.1);
+    transform: scale(1);
 }
 section{
     height: 100vh;
@@ -86,7 +86,11 @@ section{
 iframe{
     margin:auto;
 }
-
+.main-content section div{
+    width:450;
+    height:260;
+    overflow:hidden;
+}
 .intro{
     position:fixed;
     z-index: 2;
