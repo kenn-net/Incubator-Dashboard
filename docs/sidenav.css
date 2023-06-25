@@ -58,9 +58,9 @@ body{
     margin-bottom: 20px;
     font-size:40px;
 }
-.wrapper .main-content iframe:hover{
-    transition:1s;
-    transform: scale(1);
+td{
+    overflow:hidden;
+    padding:10px;
 }
 section{
     height: 100vh;
