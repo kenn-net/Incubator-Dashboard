@@ -22,7 +22,7 @@ a{
     padding: 20px;
 }
 .wrapper .sidenav h1{
-    color:darkred;
+    color: black;
     font-size:22pt;
     text-align: center;
     padding:15px;
@@ -42,7 +42,7 @@ a{
 }
 .wrapper .sidenav img:hover{
     transition: 5s;
-    transform:rotate(360deg) scale(1.5);
+    transform:rotate(360deg) scale(1.3);
 }
 .wrapper .sidenav li:hover{
     color: grey;
@@ -69,19 +69,19 @@ section{
     right:0;
 }
 #section1{
-    background-color:#eca237;
+    background-color: black;
 }
 #section2{
-    background-color: goldenrod;
+    background-color: black;
 }
 #section3{
-    background-color: #d44f22;
+    background-color: black;
 }
 #section4{
-    background-color: #a13c1a;
+    background-color: black;
 }
 #section5{
-    background-color: #f10043;
+    background-color: black;
 }
 iframe{
     margin:auto;
