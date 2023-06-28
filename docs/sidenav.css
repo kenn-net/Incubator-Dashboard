@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
     position:fixed;
     right:0;
     top:0;
-    width:20vw;
+    width:20%;
     height:100vh;
     background-color: ghostwhite;
     padding: 20px;
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
     transform: scale(1.1);
 }
 .wrapper .main-content{
-    width:80vw;
+    width:80%;
     padding:0;
     overflow-x:wrap;
 }
