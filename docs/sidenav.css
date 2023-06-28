@@ -37,18 +37,22 @@ body::-webkit-scrollbar {
     border-bottom: 1px dotted grey;
     margin-bottom: 50px;
 }
+.wrapper .sidenav ul{
+    overflow: hidden;
+}
+.wrapper .sidenav img{
+    transition: 5s;
+}
+.wrapper .sidenav img:hover{
+    transition: 5s;
+    transform:rotate(360deg) scale(1.3);
+}
 .wrapper .sidenav ul li{
     list-style:none;
     padding:15px;
     border-bottom:1px solid rgba(0,0,0,0.1);
     border-top: 1px solid rgba(255,255,255,0.1);
-}
-.wrapper .sidenav ul{
-    overflow: hidden;
-}
-.wrapper .sidenav img:hover{
-    transition: 5s;
-    transform:rotate(360deg) scale(1.3);
+    transition: 1s;
 }
 .wrapper .sidenav li:hover{
     color: grey;
@@ -66,12 +70,11 @@ body::-webkit-scrollbar {
     margin-bottom: 20px;
     font-size:40px;
 }
-.wrapper .main-content h1:hover{
-    transform:scale(1.1);
-    transition:2s;
+.wrapper .main-content .graph{
+    transition: 1.5s;
 }
 .wrapper .main-content .graph:hover{
-    transition: 1s;
+    transition: 1.5s;
     left:50%;
     top:50%;
     transform: scale(1.2);
