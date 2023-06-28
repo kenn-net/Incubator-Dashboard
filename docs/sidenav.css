@@ -66,9 +66,18 @@ body::-webkit-scrollbar {
     margin-bottom: 20px;
     font-size:40px;
 }
+.wrapper .main-content h1:hover{
+    transform:scale(1.1);
+    transition:2s;
+}
+.wrapper .main-content .graph:hover{
+    transition: 1s;
+    left:50%;
+    top:50%;
+    transform: scale(1.2);
+}
 td{
     overflow:hidden;
-    padding:10px;
 }
 section{
     height: 100vh;
