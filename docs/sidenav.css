@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 .wrapper .sidenav{
     position:fixed;
-    margin-left: 80vw;
+    right:0;
     top:0;
     width:20vw;
     height:100vh;
