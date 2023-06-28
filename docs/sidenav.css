@@ -57,6 +57,7 @@ body::-webkit-scrollbar {
 .wrapper .main-content{
     width:80vw;
     padding:0;
+    overflow-x:scroll;
 }
 .wrapper .main-content h1{
     color:black;
