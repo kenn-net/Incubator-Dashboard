@@ -2,4 +2,4 @@
 Dashboard for Incubator System using ThingSpeak
 
 # Access Link
-## [Dashboard](https://krudff.github.io/Incubator-Dashboard/index.html)
+## [Dashboard](https://kenn-net.github.io/Incubator-Dashboard/index.html)
